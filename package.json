@@ -1,0 +1,15 @@
+{
+  "name": "uels-monorepo-lint",
+  "version": "0.1.0",
+  "description": "Demo repo for ember-language-server linting in a monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Palmas",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
